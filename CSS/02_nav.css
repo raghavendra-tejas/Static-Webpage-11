@@ -1,0 +1,33 @@
+/* Navigation Section */
+.navBar{
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLeft img {
+  width: 120px;
+}
+
+.navRight a {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  margin-right: 40px;
+  font-size: 15px;
+}
+
+.navRight a:hover {
+  color: #202020;
+}
+
+.navRight button {
+  color: #3fbcf7;
+  border-color: #3fbcf7;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 15px;
+}

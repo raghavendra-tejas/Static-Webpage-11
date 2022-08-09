@@ -1,0 +1,268 @@
+/* Mid Section 1 */
+#mid1 {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  justify-content: space-around;
+}
+
+.mid1Left h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mid1Right p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+}
+
+
+
+
+
+
+/* Mid Section 2 */
+#mid2 {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-row: 50% 50%;
+  column-gap: 40px;
+  row-gap: 60px;
+  margin: 30px 150px 100px 50px;
+}
+
+.mid2Grid img {
+  width: 50px;
+}
+
+.mid2Grid h4 {
+  margin: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mid2Grid p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+}
+
+
+
+
+
+
+/* Mid Section 3 */
+#mid3 {
+  background-image: linear-gradient(to bottom right, #08c1f8, #0567eb);
+  margin: 0 -100px;
+}
+
+#mid3 h2 {
+  text-align: center;
+  padding: 50px 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 120px 50px 120px;
+}
+
+.starterPack {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.starterPack-top h4 {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+}
+
+.starterPack-top p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.starterPack-mid-data {
+  font-family: "Roboto", sans-serif;
+  color: #2b385a;
+  margin: 20px 0 30px 0;
+}
+
+.starterPack-mid-data img {
+  margin-right: 20px;
+}
+
+.starterPack-bottom {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.starterPack-bottom h3 {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 10px;
+}
+
+.starterPack-bottom h3 span {
+  color: #8d8d8d;
+}
+
+.starterPack-bottom p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.starterPack-bottom button {
+  color: #3fbcf7;
+  border-color: #3fbcf7;
+  background-color: transparent;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+
+
+
+
+.popularPackages {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.popularPackages-top {
+  background-color: #353535;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 20px 0 20px;
+  border-radius: 10px;
+}
+
+.popularPackages-top h4 {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.popularPackages-top p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.popularPackages-mid-data {
+  font-family: "Roboto", sans-serif;
+  color: #2b385a;
+  margin-bottom: 30px;
+}
+
+.popularPackages-mid-data img {
+  margin-right: 20px;
+}
+
+.popularPackages-bottom {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.popularPackages-bottom h3 {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 10px;
+}
+
+.popularPackages-bottom h3 span {
+  color: #8d8d8d;
+}
+
+.popularPackages-bottom p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.popularPackages-bottom button {
+  color: #ffffff;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom right, #08c1f8, #0567eb);
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 5px 10px #c4dbf2;
+}
+
+
+
+
+
+.businessPackage {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.businessPackage-top h4 {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+}
+
+.businessPackage-top p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.businessPackage-mid-data {
+  font-family: "Roboto", sans-serif;
+  color: #2b385a;
+  margin: 20px 0 30px 0;
+}
+
+.businessPackage-mid-data img {
+  margin-right: 20px;
+}
+
+.businessPackage-bottom {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.businessPackage-bottom h3 {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 10px;
+}
+
+.businessPackage-bottom h3 span {
+  color: #8d8d8d;
+}
+
+.businessPackage-bottom p {
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.businessPackage-bottom button {
+  color: #3fbcf7;
+  border-color: #3fbcf7;
+  background-color: transparent;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 15px;
+}
