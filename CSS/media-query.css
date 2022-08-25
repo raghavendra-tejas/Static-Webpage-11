@@ -56,6 +56,31 @@
     height: 100%;
     padding: 30px;
   }
+  .pricing {
+    flex-direction: column;
+  }
+  .starterPack {
+    margin: 50px auto;
+    width: 300px;
+
+  }
+  .starterPack-mid-data {
+    padding-left: 25px;
+  }
+  .popularPackages {
+    flex: 50%;
+  }
+  .starterPack-top {
+    text-align: center;
+  }
+  .popularPackages {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .businessPackage {
+    margin: 50px auto 0 auto;
+    width: 300px;
+  }
 }
 
 
@@ -114,7 +139,30 @@
     height: 100%;
     padding: 50px;
   }
-  
+  .pricing {
+    flex-direction: column;
+  }
+  .starterPack {
+    margin: 50px auto;
+    width: 300px;
+  }
+  .starterPack-mid-data {
+    padding-left: 25px;
+  }
+  .popularPackages {
+    flex: 50%;
+  }
+  .starterPack-top {
+    text-align: center;
+  }
+  .popularPackages {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .businessPackage {
+    margin: 50px auto 0 auto;
+    width: 300px;
+  }
 }
 
 
@@ -174,6 +222,27 @@
     grid-template-columns: 50% 50%;
     height: 100%;
   }
+  .pricing {
+    flex-direction: column;
+  }
+  .starterPack {
+    margin: 50px auto;
+    width: 300px;
+  }
+  .starterPack-mid-data {
+    padding-left: 25px;
+  }
+  .starterPack-top {
+    text-align: center;
+  }
+  .popularPackages {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .businessPackage {
+    margin: 50px auto 0 auto;
+    width: 300px;
+  }
 }
 
 
@@ -185,6 +254,9 @@
   .navBar i {
     display: none;
   }
+  .pricing {
+    padding-top: 50px;
+  }
 }
 
 
@@ -192,5 +264,8 @@
 @media (min-width: 1201px) {
   .navBar i {
     display: none;
+  }
+  .pricing {
+    padding-top: 50px;
   }
 }

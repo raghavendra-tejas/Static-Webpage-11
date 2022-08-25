@@ -82,12 +82,14 @@
   display: flex;
   justify-content: space-around;
   padding: 0 120px 50px 120px;
+  background-color: rgb(146, 146, 43);
 }
 
 .starterPack {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
+  background-color: violet;
 }
 
 .starterPack-top h4 {
