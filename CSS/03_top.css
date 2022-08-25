@@ -1,12 +1,14 @@
 /* Top Section 01 */
 #top1 {
   display: flex;
-  height: 500px;
+  height: 700px;
   align-items: center;
+  background-color: rgb(218, 115, 97);
 }
 
 .top1Left {
   flex: 1;
+  background-color: yellowgreen;
 }
 
 .top1Left h2 {
@@ -34,11 +36,12 @@
 
 .top1Right {
   flex: 1;
+  background-color: beige;
 }
 
 .top1Right img {
   display: block;
-  width: 70%;
+  width: 450px;
   margin: auto;
 }
 
@@ -50,12 +53,14 @@
 /* Top Section 02 */
 #top2 {
   display: flex;
-  height: 500px;
+  height: 650px;
   align-items: center;
+  background-color: turquoise;
 }
 
 .top2Right {
   flex: 1;
+  background-color: thistle;
 }
 
 .top2Right h2 {
@@ -83,11 +88,12 @@
 
 .top2Left {
   flex: 1;
+  background-color: tan;
 }
 
 .top2Left img {
   display: block;
-  width: 90%;
+  width: 550px;
   margin: auto;
 }
 
@@ -99,12 +105,14 @@
 /* Top Section 03 */
 #top3 {
   display: flex;
-  height: 500px;
+  height: 700px;
   align-items: center;
+  background-color: burlywood;
 }
 
 .top3Left {
   flex: 1;
+  background-color: rgb(139, 224, 64);
 }
 
 .top3Left h2 {
@@ -132,10 +140,11 @@
 
 .top3Right {
   flex: 1;
+  background-color: skyblue;
 }
 
 .top3Right img {
-  width: 80%;
+  width: 450px;
   display: block;
   margin: auto;
 }

@@ -3,6 +3,41 @@
   .navRight {
     display: none;
   }
+  body {
+    margin: 10px 20px;
+  }
+  #top1 {
+    flex-direction: column;
+  }
+  .top1Left {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .top1Right img {
+    width: 300px;
+    padding-top: 20px;
+  }
+  #top2 {
+    flex-direction: column-reverse;
+  }
+  .top2Right {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .top2Left img {
+    width: 350px;
+  }
+  #top3 {
+    flex-direction: column;
+  }
+  .top3Left {
+    padding-top: 50px;
+    /* padding-bottom: 80px; */
+    text-align: center;
+  }
+  .top3Right img {
+    width: 300px;
+  }
 }
 
 
@@ -10,6 +45,42 @@
 @media (min-width: 481px) and (max-width: 768px) {
   .navRight {
     display: none;
+  }
+  body {
+    margin: 10px 30px;
+  }
+  #top1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .top1Left {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .top1Right img {
+    width: 300px;
+    padding-top: 20px;
+  }
+  #top2 {
+    flex-direction: column-reverse;
+  }
+  .top2Right {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .top2Left img {
+    width: 400px;
+  }
+  #top3 {
+    flex-direction: column;
+  }
+  .top3Left {
+    padding-top: 50px;
+    /* padding-bottom: 80px; */
+    text-align: center;
+  }
+  .top3Right img {
+    width: 350px;
   }
 }
 
@@ -19,13 +90,52 @@
   .navRight {
     display: none;
   }
+  body {
+    margin: 10px 40px;
+  }
+  #top1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .top1Left {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .top1Right {
+    align-items: center;
+  }
+  .top1Right img {
+    width: 400px;
+  }
+  #top2 {
+    flex-direction: column-reverse;
+  }
+  .top2Right {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: -50px;
+  }
+  .top2Left img {
+    width: 430px;
+  }
+  #top3 {
+    flex-direction: column;
+  }
+  .top3Left {
+    padding-top: 50px;
+    /* padding-bottom: 80px; */
+    text-align: center;
+  }
+  .top3Right img {
+    width: 360px;
+  }
 }
 
 
 /* Desktops, large screens */
 @media (min-width: 1025px) and (max-width: 1200px) {
   .navRight a {
-    margin-right: 30px;
+    margin-right: 28px;
   }
   .navBar i {
     display: none;
