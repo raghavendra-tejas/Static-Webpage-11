@@ -85,12 +85,14 @@
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   padding-bottom: 20px;
+  /* background-color: #253355; */
 }
 
 .bottom2-left p {
   font-family: "Roboto", sans-serif;
   color: #e1d6d6;
   font-size: 15px;
+  padding-right: 100px;
 }
 
 .bottom2-right {
@@ -120,6 +122,11 @@
   justify-content: space-between;
 }
 
+.bottom3-left {
+  flex: 1;
+  background-color: rgb(99, 145, 8);
+}
+
 .bottom3-left img {
   width: 100px;
   padding-bottom: 20px;
@@ -129,10 +136,16 @@
   font-family: "Roboto", sans-serif;
   color: #b6aeae;
   font-size: 15px;
+  padding-right: 20px;
+  /* background-color: #08c1f8; */
 }
 
 .bottom3-mid {
   display: flex;
+  flex: 1;
+  text-align: center;
+  background-color: #992f2f;
+  padding: 0 20px;
 }
 
 .bottom3-ul li {
@@ -146,10 +159,7 @@
 
 .bottom3-mid1 {
   margin-right: 100px;
-}
-
-.bottom-mid-heading {
-  padding-top: 80px;
+  background-color: #08c1f8;
 }
 
 .bottom-mid-heading h4 {
@@ -163,6 +173,9 @@
 
 .bottom3-right {
   margin-bottom: 40px;
+  flex: 1;
+  text-align: center;
+  background-color: violet;
 }
 
 .bottom3-right h4 {

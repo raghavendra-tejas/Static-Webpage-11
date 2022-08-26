@@ -62,16 +62,9 @@
   .starterPack {
     margin: 50px auto;
     width: 300px;
-
-  }
-  .starterPack-mid-data {
-    padding-left: 25px;
   }
   .popularPackages {
     flex: 50%;
-  }
-  .starterPack-top {
-    text-align: center;
   }
   .popularPackages {
     margin: 0 auto;
@@ -88,6 +81,36 @@
   }
   #bottom1 {
     margin-top: -50px;
+  }
+  #bottom2 {
+    flex-direction: column;
+    padding: 80px 50px;
+  }
+  .bottom2-left {
+    text-align: center;
+  }
+  .bottom2-left p {
+    padding: 0 50px;
+  }
+  .bottom2-right {
+    padding: 0;
+    margin-top: 50px;
+  }
+  #bottom3 {
+    flex-direction: column;
+  }
+  .bottom3-left {
+    text-align: center;
+    padding: 0 40px;
+  }
+  .bottom3-mid {
+    margin: 20px 0;
+  }
+  .bottom3-mid1 {
+    margin-right: 25px;
+  }
+  .bottom3-mid2 {
+    margin-right: 25px;
   }
 }
 
@@ -154,15 +177,10 @@
     margin: 50px auto;
     width: 300px;
   }
-  .starterPack-mid-data {
-    padding-left: 25px;
-  }
   .popularPackages {
     flex: 50%;
   }
-  .starterPack-top {
-    text-align: center;
-  }
+  
   .popularPackages {
     margin: 0 auto;
     width: 300px;
@@ -175,6 +193,29 @@
     grid-template-columns: 100%;
     height: 100%;
     padding: 50px;
+  }
+  #bottom2 {
+    flex-direction: column;
+  }
+  .bottom2-left {
+    text-align: center;
+  }
+  .bottom2-left p {
+    padding: 0;
+  }
+  .bottom2-right {
+    padding: 0;
+    margin-top: 50px;
+  }
+  #bottom3 {
+    flex-direction: column;
+  }
+  .bottom3-left {
+    text-align: center;
+    padding: 0 100px;
+  }
+  .bottom3-mid {
+    margin: 20px 0;
   }
 }
 
@@ -242,12 +283,6 @@
     margin: 50px auto;
     width: 300px;
   }
-  .starterPack-mid-data {
-    padding-left: 25px;
-  }
-  .starterPack-top {
-    text-align: center;
-  }
   .popularPackages {
     margin: 0 auto;
     width: 300px;
@@ -258,6 +293,12 @@
   }
   .feedback {
     padding: 0 25px 50px 25px;
+  }
+  .bottom3-mid1 {
+    margin-right: 40px;
+  }
+  .bottom3-mid2 {
+    margin-right: 40px;
   }
 }
 
@@ -273,12 +314,6 @@
   .pricing {
     padding-top: 50px;
   }
-  .starterPack-top {
-    padding-bottom: 20px;
-  }
-  .businessPackage-top {
-    padding-bottom: 20px;
-  }
 }
 
 
@@ -289,11 +324,5 @@
   }
   .pricing {
     padding-top: 50px;
-  }
-  .starterPack-top {
-    padding-bottom: 20px;
-  }
-  .businessPackage-top {
-    padding-bottom: 20px;
   }
 }
