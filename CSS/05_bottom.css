@@ -22,7 +22,7 @@
   row-gap: 50px;
   padding: 0 140px 100px 140px;
   color: #253355;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   align-content: center;
   height: 100%;
 }
@@ -124,7 +124,7 @@
 
 .bottom3-left {
   flex: 1;
-  background-color: rgb(99, 145, 8);
+  /* background-color: rgb(99, 145, 8); */
 }
 
 .bottom3-left img {
@@ -144,7 +144,7 @@
   display: flex;
   flex: 1;
   text-align: center;
-  background-color: #992f2f;
+  /* background-color: #992f2f; */
   padding: 0 20px;
 }
 
@@ -159,7 +159,7 @@
 
 .bottom3-mid1 {
   margin-right: 100px;
-  background-color: #08c1f8;
+  /* background-color: #08c1f8; */
 }
 
 .bottom-mid-heading h4 {
@@ -175,7 +175,7 @@
   margin-bottom: 40px;
   flex: 1;
   text-align: center;
-  background-color: violet;
+  /* background-color: violet; */
 }
 
 .bottom3-right h4 {

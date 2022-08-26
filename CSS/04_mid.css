@@ -4,19 +4,19 @@
   align-items: center;
   height: 150px;
   justify-content: space-around;
-  background-color: wheat;
+  /* background-color: wheat; */
 }
 
 .mid1Left h2 {
   font-family: 'Open Sans', sans-serif;
-  background-color: slategrey;
+  /* background-color: slategrey; */
 }
 
 .mid1Right p {
   font-family: "Roboto", sans-serif;
   color: #8d8d8d;
   font-size: 15px;
-  background-color: skyblue;
+  /* background-color: skyblue; */
   padding: 0 200px 0 50px;
 }
 
@@ -32,7 +32,7 @@
   grid-row: 50% 50%;
   column-gap: 40px;
   row-gap: 40px;
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 500px;
   padding: 100px;
   justify-content: center;
@@ -41,7 +41,7 @@
 }
 
 .mid2Grid {
-  background-color: tomato;
+  /* background-color: tomato; */
   cursor: pointer;
 }
 
@@ -82,7 +82,7 @@
   display: flex;
   justify-content: space-around;
   padding: 0 50px 50px 50px;
-  background-color: rgb(146, 146, 43);
+  /* background-color: rgb(146, 146, 43); */
 }
 
 .starterPack {
